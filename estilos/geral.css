@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #9F82DF;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+   
+}
+
+section {
+    height: 510px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    
+}
+
+#imagem {
+    background-image: url(../imagens/Epic\ Seven\ codes\ –\ free\ in-game\ gold\ and\ items.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+}
+
+#formulario {
+    padding: 10px;
+}
+
+h1, p {
+    text-align: center;
+    margin: 7px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.campo {
+    display: block;
+    background-color: #9F82DF;
+    height: 50px;
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+.campo > span {
+    font-size: 1.5em;
+    color: white;
+    width: 50px;
+    padding: 5px;
+}
+
+.campo > input {
+    border: 0px;
+    width: calc(100% - 50px);
+    height: 90%;
+    border-radius: 5px;
+    transform: translateY(-5px);
+}
+
+input[type=submit], a {
+    display: block;
+    background-color: #9F82DF;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100%;
+    margin: 2px 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=submit]:hover, a:hover {
+    background-color: #ACE1FF;
+
+}
+/*#9F82DF roxo
+#ACE1FF azul*/

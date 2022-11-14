@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+    section { /*celular*/
+        width: 60vw;
+    }
+    #imagem {
+        height: 30%;
+        width: 100%;
+    }
+    #formulario {
+        height: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section { /*tablet*/
+        height: 400px;
+        width: 80vw;
+    }
+
+    #imagem {
+        background-position: center center;
+        width: 50%;
+        height: 100%;
+        display: block;
+        float: left;
+    }
+
+    #formulario {
+        width: 50%;
+        display: block;
+        float: right;
+
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    section {
+        width: 90vw;
+        height: 500px;
+    }
+
+    #imagem {
+        float: right;
+        height: 100%;
+        width: 50%;
+    }
+
+    #formulario {
+        float: left;
+        width: 50%;
+    }
+}
+
+
